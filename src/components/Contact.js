@@ -1,6 +1,6 @@
   
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaEnvelope, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 
 const Contact = ({contactEmail, contactPara, socialLinks})=>{
 
@@ -31,7 +31,7 @@ const Contact = ({contactEmail, contactPara, socialLinks})=>{
             </li>
             <li>
               <a href={socialLinks[2].url}>
-                <FaCodepen></FaCodepen>
+                <FaFacebook></FaFacebook>
               </a>
             </li>
           </ul>

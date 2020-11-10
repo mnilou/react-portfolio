@@ -1,96 +1,77 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-    //(Please Do Not Remove The comma(,) after every variable)
-  
-    //Change The Website Template
-    name: "mnilou",
-  
-    //Contact Email
-    contactEmail: "nilou@km-direct.com",
-  
-    // Landing Page Name
-    landingPageName: "Nilou Mostofi",
-  
-    // Landing Page Paragraph
-    landingPagePara:
-      "Designer and front-end developer. I work as the Creative Director at WORK in India, while also taking on freelance projects that pique my interest.",
-  
-    // Landing Page Image (replace - root/public/assets/photo.jpg)
-    landingPageImage: "./public/assets/Image.jpg",
-  
-    // Change Projects Here
-    projects: [
-      {
-        id: 1, //DO NOT CHANGE THIS (Please)😅
-        title: "COVID Karaoke", //Project Title - Add Your Project Title Here
-        // Image Size Should be (300X300 px)
-        imageSrc: "./public/assets/screenshot-covidkaraoke.png",
-        //Project URL - Add Your Project Url Here
-        url: "https://covidkaraoke.herokuapp.com/"
-      },
-      {
-        id: 2, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Two",
-        imageSrc: "https://via.placeholder.com/300",
-        url: "http://chetanverma.com/"
-      },
-      {
-        id: 3, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Three",
-        imageSrc: "https://via.placeholder.com/300",
-        url: "http://chetanverma.com/"
-      },
-      {
-        id: 4, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Four",
-        imageSrc: "https://via.placeholder.com/300",
-        url: "http://chetanverma.com/"
-      },
-      {
-        id: 5, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Five",
-        imageSrc: "https://via.placeholder.com/300",
-        url: "http://chetanverma.com/"
-      },
-      {
-        id: 6, //DO NOT CHANGE THIS (Please)😅
-        title: "Project Six",
-        imageSrc: "https://via.placeholder.com/300",
-        url: "http://chetanverma.com/"
-      }
-      // Paste more projects here from the template
-  
-      /*
-                      If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-                  ,{
-                  id: 7,
-                  service: 'Something Amazing',
-                  imageSrc: "",
-                  url: ''
-              }
-                  */
-    ],
-  
-    // Contact Section
-    contactPara:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    social: [
-      // Add Or Remove The Link Accordingly
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/chetanverma7/"
-      },
-      {
-        name: "Github",
-        url: "https://www.behance.net/chetanverma"
-      },
-      {
-        name: "Dribbble",
-        url: "https://dribbble.com/chetanverma"
-      }
-    ],
-  
-    // About Page
-    aboutTitle: "I make remarkable digital products",
-    aboutPara:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text eversince the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-  };
+  name: 'mnilou',
+
+  contactEmail: 'nilou@km-direct.com',
+
+  landingPageName: 'Nilou Mostofi',
+
+  landingPagePara:
+    'Full Stack Web Developer. My approach to web development is holistic and caters to both the user experience and functionality. I am proficient in both front and back end coding. I design user-friendly websites, develop servers and databases for website functionality and code for mobile platforms.',
+
+  landingPageImage: './public/assets/Image.jpg',
+
+  projects: [
+    {
+      id: 1,
+      title: 'COVID Karaoke',
+      // Image Size Should be (300X300 px)
+      imageSrc: './public/assets/screenshot-covidkaraoke.png',
+      url: 'https://covidkaraoke.herokuapp.com/',
+    },
+    {
+      id: 2,
+      title: 'The Galactic Game',
+      imageSrc: './public/assets/starwars-2.jpg',
+      url: 'https://mpabst01.github.io/starWarsTrivia/',
+    },
+    {
+      id: 3,
+      title: 'Burger App',
+      imageSrc: './public/assets/burger-screenshot.jpg',
+      url: 'https://burgers-devoured-app.herokuapp.com/',
+    },
+    {
+      id: 4,
+      title: 'Weather Dashboard',
+      imageSrc: 'public/assets/weather-dashboard.jpg',
+      url: 'https://mnilou.github.io/weather-dashboard/',
+    },
+    {
+      id: 5,
+      title: 'Password Generator',
+      imageSrc: 'public/assets/password-generator.jpg',
+      url: 'https://mnilou.github.io/password-template/',
+    },
+    {
+      id: 6,
+      title: 'Employee Team Roster',
+      imageSrc: 'public/assets/team-profile-screenshot.jpg',
+      url: 'https://mnilou.github.io/employee-team-roster/',
+    },
+  ],
+
+  // Contact Section
+  contactPara:
+    'I am passionate about creative problem-solving in building beautifully balanced and functional websites. With both front-end and back-end expertise, I am comfortable working in PHP, MySQL, HTML5, CSS3, Javascript, jQuery, REACT, and other front-end technologies.',
+  social: [
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/nilou-mostofi',
+    },
+    {
+      name: 'Github',
+      url: 'https://github.com/mnilou',
+    },
+    {
+      name: 'FaceBook',
+      url: 'https://www.facebook.com/nilou.mostofi.5/',
+    },
+  ],
+
+  // About Page
+  aboutTitle:
+    'Lets make your project accessible, reliable, functional, and beautiful.',
+  aboutPara:
+    'As a small-business owner of an event planning company for the past 11 years, I am organized, self-motivated, and comfortable making independent decisions. However, I am also adaptable and can thrive in a team environment with a collaborative effort to delivery quality web projects. My goal is to work directly with clients independently or as a collaborator, to ensure not only quality customer service, but quality products as well.',
+};
